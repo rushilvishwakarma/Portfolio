@@ -101,27 +101,27 @@ export const DATA = {
   ],
   projects: [
         {
-      title: "The Wall",
-      href: "https://wall-rait.vercel.app/",
-      dates: "August 2024",
+      title: "Decentralized KYC System",
+      href: "https://blockchain-kyc.vercel.app/",
+      dates: "August 2025",
       active: true,
       description:
-        "The Wall is the official literary platform of RAIT, showcasing student creativity through blogs, reviews, digital magazines, and memorable moments from campus life. It serves as a space for expression, reflection, and storytelling, all presented in a clean, accessible design.",
+        "This concept of Decentralized KYC System is a blockchain-based solution which leverages smart contracts to automate the KYC process, ensuring data integrity and reducing fraud.",
       technologies: [
         "React",
         "Next.js",
         "Zustand",
-        "Sanity CMS",
+        "Reown AppKit",
       ],
       links: [
         {
           type: "Live Demo",
-          href: "https://wall-rait.vercel.app/",
+          href: "https://blockchain-kyc.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: {
-        src: "https://cdn.sanity.io/images/e71ra3i6/production/3436944d31f4928a5a4a550dee4cda79cbd4d40b-1280x720.png",
+        src: "/blockchain.jpg",
         width: 800,
         height: 800,
       },
@@ -155,7 +155,62 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Lurnit [Frontend]",
+      title: "Tangerine Convert",
+      href: "https://tangerine-convert.vercel.app/",
+      dates: "December 2024",
+      active: true,
+      description:
+        "Tangerine Convert is a versatile web application combining powerful calculation tools with seamless document conversion capabilities, built with modern web technologies for an intuitive user experience.",
+      technologies: [
+        "Framer Motion",
+        "Next.js",
+        "TailwindCSS",
+        "Web Assembly",
+      ],
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://tangerine-convert.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: {
+        src: "/tangerine.png",
+        width: 800,
+        height: 800,
+      },
+      video: "",
+    },
+    {
+      title: "Traversal Playground",
+      href: "https://traversalplayground.vercel.app/",
+      dates: "September 2025",
+      active: true,
+      description:
+        "Traversal Playground is an interactive web application for exploring and visualizing graph traversal algorithms.",
+      technologies: [
+        "Ecmascript",
+        "Next.js",
+        "TailwindCSS",
+        "TypeScript",
+        "Framer Motion"
+      ],
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://traversalplayground.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: {
+        src: "/algo.png",
+        width: 800,
+        height: 800,
+      },
+      video: "",
+    },
+    {
+      title: "Lurnit (Frontend)",
       href: "https://lurnit.netlify.app/",
       dates: "April 2024 - June 2024",
       active: true,
@@ -293,7 +348,7 @@ export const DATA = {
       dates: "August, 2024",
       location: "Web Development & Design",
       description:
-        "Developed the official Live Demo, using technologies like Next.js, Tailwind CSS, Cloudinary, Zustand & Sanity CMS. Designed social media creatives and digital artwork, boosting online presence and community engagement.",
+        "(Images are intensionally removed) Developed using Next.js, Tailwind CSS, Cloudinary, Zustand & Sanity CMS. Designed social media creatives and digital artwork, boosting online presence and community engagement. However it was not officially approved due to budget constrains and is put to sunset.",
       image:
         "https://wall-rait.vercel.app/Wall_Logo.png",
       links: [
@@ -306,8 +361,8 @@ export const DATA = {
     },
     {
       title: "Google Developers Group RAIT",
-      dates: "October, 2024",
-      location: "Web Development Co-Head",
+      dates: "September, 2025",
+      location: "Technical Lead",
       description:
         "Designed and Developed the official Live Demo for GDG Hacktoberfest ‘24 & conducted Workshops.",
       image:
@@ -348,20 +403,71 @@ export const DATA = {
       ],
     },
     {
-      title: "Traversal Playground - Algorithm Visualizer",
+      title: "Apple Music Artwork Downloader",
       dates: "May, 2025",
-      location: "Web Development Co-Head",
+      location: "Liquid Glass gooey behaviour on Web",
       description:
-        "State-of-the-art Algorithm visualizer made using ReactFlow, Zustand & ECMAScript.",
+        "Work in Progress. A simple beautiful web app for downloading Apple Music artwork. API to be used with local Music players such as Accord forks",
       image:
         "",
       links: [
+      ],
+    },
+
+    {
+      title: "Sahil Dogra Portfolio",
+      href: "https://sahil-dogra.vercel.app/",
+      dates: "September 2025",
+      active: true,
+      description:
+        "A personal portfolio website showcasing projects, skills, and experience with a modern design and interactive elements.",
+      technologies: [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "TypeScript",
+      ],
+      links: [
         {
-          title: "Live Demo",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://traversalplayground.vercel.app/",
+          type: "Live Demo",
+          href: "https://sahil-dogra.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
+      image: {
+        src: "/tangerine.png",
+        width: 800,
+        height: 800,
+      },
+      video: "",
+    },
+
+    {
+      title: "Zarp",
+      href: "https://zarpcopywrite.vercel.app/",
+      dates: "September 2025",
+      active: true,
+      description:
+        "A professional portfolio website for a finance agency, showcasing copywriting services, client testimonials, and project samples with a modern, engaging design.",
+      technologies: [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "TypeScript",
+      ],
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://zarpcopywrite.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: {
+        src: "/tangerine.png",
+        width: 800,
+        height: 800,
+      },
+      video: "",
     },
 
   ],
