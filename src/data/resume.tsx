@@ -259,7 +259,7 @@ export const DATA = {
         },
       ],
       image: {
-        src: "/tangerine.png",
+        src: "/sahild.png",
         width: 800,
         height: 800,
       },
@@ -286,7 +286,7 @@ export const DATA = {
         },
       ],
       image: {
-        src: "/tangerine.png",
+        src: "/zarp.png",
         width: 800,
         height: 800,
       },
