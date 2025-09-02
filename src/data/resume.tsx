@@ -8,7 +8,7 @@ export const DATA = {
   location: "Navi Mumbai, India",
   locationLink: "https://www.google.com/maps/place/india",
   description:
-    "Fanatical open sourcerer and Tech Enthusiast passionate about Operating Systems, Music Production, 3D Modeling, Web Development, Product photography. I love building things and helping people.",
+    "Passionate about Operating Systems, Music Production, 3D Modeling, Web Development, Product photography. I love building things and helping people.",
   summary:
     "I’m currently studying Artificial Intelligence and Machine Learning where I’m delving into cutting-edge technologies and innovative solutions. Alongside my academic pursuits, I moderate the Evolution X Custom ROM community, ensuring smooth interactions and providing technical support to users. In addition to my studies and community involvement, I’m passionate about web development. I’m currently working on a learning platform project for previous years’ question papers, focusing on clean and minimal UI design to enhance user experience. I also have a deep love for nature and animals, which influences my approach to both my professional work and personal life.",
   avatarUrl: "/me.png",
@@ -238,6 +238,60 @@ export const DATA = {
       },
       video: "",
     },
+    {
+      title: "Sahil Dogra Portfolio",
+      href: "https://sahil-dogra.vercel.app/",
+      dates: "September 2025",
+      active: true,
+      description:
+        "A personal portfolio website showcasing projects, skills, and experience with a modern design and interactive elements.",
+      technologies: [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "TypeScript",
+      ],
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://sahil-dogra.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: {
+        src: "/tangerine.png",
+        width: 800,
+        height: 800,
+      },
+      video: "",
+    },
+    {
+      title: "Zarp",
+      href: "https://zarpcopywrite.vercel.app/",
+      dates: "September 2025",
+      active: true,
+      description:
+        "A professional portfolio website for a finance agency, showcasing copywriting services, client testimonials, and project samples with a modern, engaging design.",
+      technologies: [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "TypeScript",
+      ],
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://zarpcopywrite.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: {
+        src: "/tangerine.png",
+        width: 800,
+        height: 800,
+      },
+      video: "",
+    },
   ],
   hackathons: [
 
@@ -405,69 +459,13 @@ export const DATA = {
     {
       title: "Apple Music Artwork Downloader",
       dates: "May, 2025",
-      location: "Liquid Glass gooey behaviour on Web",
+      location: "Web Development Project",
       description:
         "Work in Progress. A simple beautiful web app for downloading Apple Music artwork. API to be used with local Music players such as Accord forks",
       image:
         "",
       links: [
       ],
-    },
-
-    {
-      title: "Sahil Dogra Portfolio",
-      href: "https://sahil-dogra.vercel.app/",
-      dates: "September 2025",
-      active: true,
-      description:
-        "A personal portfolio website showcasing projects, skills, and experience with a modern design and interactive elements.",
-      technologies: [
-        "React",
-        "Next.js",
-        "TailwindCSS",
-        "TypeScript",
-      ],
-      links: [
-        {
-          type: "Live Demo",
-          href: "https://sahil-dogra.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: {
-        src: "/tangerine.png",
-        width: 800,
-        height: 800,
-      },
-      video: "",
-    },
-
-    {
-      title: "Zarp",
-      href: "https://zarpcopywrite.vercel.app/",
-      dates: "September 2025",
-      active: true,
-      description:
-        "A professional portfolio website for a finance agency, showcasing copywriting services, client testimonials, and project samples with a modern, engaging design.",
-      technologies: [
-        "React",
-        "Next.js",
-        "TailwindCSS",
-        "TypeScript",
-      ],
-      links: [
-        {
-          type: "Live Demo",
-          href: "https://zarpcopywrite.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: {
-        src: "/tangerine.png",
-        width: 800,
-        height: 800,
-      },
-      video: "",
     },
 
   ],
