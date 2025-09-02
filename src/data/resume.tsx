@@ -271,7 +271,7 @@ export const DATA = {
       dates: "September 2025",
       active: true,
       description:
-        "A professional portfolio website for a finance agency, showcasing copywriting services, client testimonials, and project samples with a modern, engaging design.",
+        "A professional portfolio website for a finance agency, showcasing their services, client testimonials, and project samples with a modern, engaging design.",
       technologies: [
         "React",
         "Next.js",
