@@ -92,7 +92,7 @@ export const DATA = {
     {
       school: "Ramrao Adik Institute of Technology",
       href: "https://dypatil.edu/",
-      degree: "2nd Year (ongoing)",
+      degree: "3rd Year (ongoing)",
       logoUrl: "/rait.png",
       start: "2023",
       end: "Present",
